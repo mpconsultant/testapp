@@ -1,6 +1,6 @@
 # testapp
 
-To run a test copy the war file "ngdemo.war" from target folder to a local direrctory and 
+To run/test  the application ,copy the war file "ngdemo.war"  kept under "phonedemo/target" folder to a local direrctory and 
 deploy it on an application server [e.g. on tomcat/jboss/weblogic/was/jetty etc..]
 
 After a successful deployment use a 'url' with folllowing naming convention
