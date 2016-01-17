@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Malaya/Desktop/GAE/search-sort-and-pagination-angularjs-master/lib/mymy/jersey-servlet-1.17.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Malaya/Desktop/GAE/search-sort-and-pagination-angularjs-master/lib/mymy/asm-3.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Malaya/Desktop/GAE/search-sort-and-pagination-angularjs-master/lib/mymy/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Malaya/Desktop/GAE/search-sort-and-pagination-angularjs-master/lib/mymy/jaxb-core.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Malaya/Desktop/GAE/search-sort-and-pagination-angularjs-master/lib/mymy/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Malaya/Desktop/GAE/search-sort-and-pagination-angularjs-master/lib/mymy/jaxb-jxc.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Malaya/Desktop/GAE/search-sort-and-pagination-angularjs-master/lib/mymy/jaxb-xjc.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Malaya/Desktop/GAE/search-sort-and-pagination-angularjs-master/lib/mymy/jersey-core-1.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Malaya/Desktop/GAE/search-sort-and-pagination-angularjs-master/lib/mymy/jersey-server-1.17.1.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

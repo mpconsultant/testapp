@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" ng-app="phoneapp">
+ 
+<head>
+</script>
+ 		<script src="angular/jquery-1.12.0.min.js"></script>
+		<script src="angular/angular.js"></script>
+		<script src="pagination/dirPagination.js"></script>
+		<script src="app/app.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<div>
+	<a href="https://github.com/mpconsultant/testapp ">Download Source Code Here</a>.
+</div>
+   <fieldset>
+    <legend>Phone Number Conversion:</legend>
+    <div role="main" class="container theme-showcase">
+      <div class="" style="margin-top:90px;">
+        <div class="col-lg-8">
+			<div class="page-header">
+				<id="tables"><h4>Phone number conversion with Pagination in Angular js</h4>
+			</div>
+<div ng-app="phoneapp" ng-controller="personCtrl">
+<form ng-app="myValidateApp" ng-controller="personCtrl" name="phoneForm" > 
+<p>Enter Phone # :<br />
+<input type="text" name="phone" maxlength="10" size="10" ng-model="phoneNum" ng-minlength="7" ng-model-options="{ updateOn: 'blur' }" ng-pattern="/^[0-9]+$/" required>
+<span style="color:red" ng-show="phoneForm.phone.$dirty && phoneForm.phone.$invalid">
+<span ng-show="phoneForm.phone.$error.required">Phone is required.</span>
+<span ng-show="phoneForm.phone.$error.pattern">Phone must be numeric.</span>
+<span ng-show="phoneForm.phone.$error.minlength">Phone must be minimum 7 char.</span>
+</span>
+ &nbsp;&nbsp;&nbsp;&nbsp;    <button ng-click="toggle()"> Click Here To  Get All Alphabetics  Values</button>
+</p>
+<br />
+<br><br>
+
+<table class="table table-striped table-hover">
+  <caption><h4>Total Combination(s) :</h4>  {{count}}</caption>
+ <dir-pagination-controls
+					max-size="5"
+					direction-links="true"
+					boundary-links="true" >
+				</dir-pagination-controls>
+   <tbody>
+     <tr >
+       <th >Number To Alphabets Conversion</th>
+        
+     </tr>
+  <tbody>
+       <tr dir-paginate="user in fillarr|itemsPerPage:25">
+         <td>{{ user}}</td>
+            </tr>
+      </tbody>
+    </table>
+   
+</form>
+</div>
+</div>
+</div>
+</div>
+</fieldset>
+
+<script>
+$(document).ready(function () {
+	  var back = ["#F0FFFF","#FFEBCD","#A9A9A9","#BDB76B","#ADFF2F","#F8F8FF","#E0FFFF"];
+	  var rand = back[Math.floor(Math.random() * back.length)];
+	  $('div').css('background',rand);
+	})
+</script>
+
+  </body>
+</html>

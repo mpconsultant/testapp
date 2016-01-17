@@ -1,12 +1,5 @@
-# testapp
+# phoneapp
 
-To run/test  the application ,copy the war file "ngdemo.war"  kept under "phonedemo/target" folder to a local direrctory and 
-deploy it on an application server [e.g. on tomcat/jboss/weblogic/was/jetty etc..]
+To run on GAE[Google App. Engine ] use folllowing URL 
 
-After a successful deployment use a 'url' with folllowing naming convention
-
-http://hostname:port/ngdemo/index.html
-
-For example : If deployed on  tomcat server, may use 
-
-http://localhost:8080/ngdemo/index.html
+http://9-dot-mpdemo-1186.appspot.com/
