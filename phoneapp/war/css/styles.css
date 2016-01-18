@@ -7,3 +7,22 @@
 th {
 	cursor:pointer;
 }
+
+img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+a.buy {
+    color: #2da1c1;
+    font-size: small;
+    text-decoration: none;
+    float: right;
+}
+a.buy:hover
+{
+    color: #f90;
+    text-decoration: underline;         
+}

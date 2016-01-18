@@ -12,11 +12,9 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-<div>
-	<a href="https://github.com/mpconsultant/testapp ">Download Source Code Here</a>.
-</div>
+
    <fieldset>
-    <legend>Phone Number Conversion:</legend>
+   <legend>Phone Number Conversion:  <h2></h2><a class="buy" href="https://github.com/mpconsultant/testapp ">Download Source Code Here</a></h2>.</legend>
     <div role="main" class="container theme-showcase">
       <div class="" style="margin-top:90px;">
         <div class="col-lg-8">
@@ -55,7 +53,11 @@
             </tr>
       </tbody>
     </table>
-   
+   <dir-pagination-controls
+					max-size="5"
+					direction-links="true"
+					boundary-links="true" >
+				</dir-pagination-controls>
 </form>
 </div>
 </div>
@@ -65,7 +67,7 @@
 
 <script>
 $(document).ready(function () {
-	  var back = ["#F0FFFF","#FFEBCD","#A9A9A9","#BDB76B","#ADFF2F","#F8F8FF","#E0FFFF"];
+	  var back = ["#F5F5F5","#FFFF00","#FFEBCD","#A9A9A9","#BDB76B","#ADFF2F","#F8F8FF","#E0FFFF"];
 	  var rand = back[Math.floor(Math.random() * back.length)];
 	  $('div').css('background',rand);
 	})
